@@ -1,0 +1,59 @@
+@import "../../styles/variables.scss";
+@import "../../styles/global.scss";
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $main-bg;
+
+  .contact-form {
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      width: 300px;
+      gap: 20px;
+
+      input {
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        color: white;
+        border: 1px solid $soft-color;
+        border-radius: 5px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      textarea {
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid $soft-color;
+        border-radius: 3px;
+        height: 100px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      button {
+        padding: 10px;
+        background-color: $button-color;
+        color: black;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $button-hover;
+        }
+      }
+    }
+  }
+}

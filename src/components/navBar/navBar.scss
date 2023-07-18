@@ -1,0 +1,59 @@
+@import "../../styles/variables.scss";
+@import "../../styles/global.scss";
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Indie+Flower&family=Poppins:wght@300&display=swap");
+
+.navbar {
+  padding: 10px 20px;
+
+  .container {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+
+    @include mobile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .logo {
+      a {
+        color: $main-color;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: "Gochi Hand", cursive;
+        color: $logo-color;
+
+        // @include mobile {
+        //   display: flex;
+        //   align-items: center;
+        //   justify-content: center;
+        // }
+
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .links {
+      display: flex;
+      gap: 10px;
+      a {
+        color: $main-color;
+        cursor: pointer;
+
+        &:hover {
+          color: $soft-color;
+        }
+      }
+    }
+  }
+}
