@@ -15,10 +15,15 @@
       width: 300px;
       gap: 20px;
 
+      label {
+        color: $button-color;
+        font-weight: bold;
+      }
+
       input {
         padding: 10px;
         border: none;
-        background-color: transparent;
+        background-color: $soft-bg;
         color: white;
         border: 1px solid $soft-color;
         border-radius: 5px;
@@ -30,7 +35,7 @@
 
       textarea {
         padding: 10px;
-        background-color: transparent;
+        background-color: $soft-bg;
         color: white;
         border: 1px solid $soft-color;
         border-radius: 3px;

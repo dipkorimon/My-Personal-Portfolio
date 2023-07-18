@@ -46,9 +46,13 @@
     .links {
       display: flex;
       gap: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       a {
-        color: $main-color;
+        color: $button-color;
         cursor: pointer;
+        font-weight: bold;
 
         &:hover {
           color: $soft-color;
