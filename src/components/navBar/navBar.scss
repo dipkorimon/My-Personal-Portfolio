@@ -54,6 +54,7 @@
         color: $base-color;
         cursor: pointer;
         font-weight: bold;
+        transition: all 0.5s;
 
         &:hover {
           color: $soft-color;
