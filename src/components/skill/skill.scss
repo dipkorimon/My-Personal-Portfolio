@@ -1,0 +1,122 @@
+@import "../../styles/global.scss";
+@import "../../styles/variables.scss";
+
+.skill {
+  .inner {
+    padding-top: 20px;
+    .header {
+      text-align: center;
+      padding: 10px;
+
+      h1 {
+        font-size: 30px;
+        color: $base-color;
+      }
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      grid-gap: 10px;
+      padding: 10px 80px;
+
+      @include mobile {
+        grid-template-columns: 1fr;
+      }
+
+      @include tablet {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+      }
+
+      .skill-box {
+        cursor: pointer;
+
+        &:hover > .skill-title::after {
+          width: 35px;
+        }
+
+        &:hover > .skill-title::before {
+          width: 35px;
+        }
+
+        .skill-title {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px;
+          margin-bottom: 10px;
+          position: relative;
+
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            width: 0;
+            height: 4px;
+            border-radius: 2px 0 0 2px;
+            background-color: $base-color;
+            transition: 0.5s;
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 4px;
+            border-radius: 0 2px 2px 0;
+            background-color: $base-color;
+            transition: 0.5s;
+          }
+
+          .img {
+            width: 90px;
+            height: 90px;
+            position: relative;
+            border-radius: 45px;
+            background-color: $main-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.5s;
+
+            &:hover {
+              transform: translateY(-10px);
+            }
+
+            &::after {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 50%;
+              height: 90px;
+              background-color: $soft-color;
+              border-radius: 45px 0 0 45px;
+            }
+
+            img {
+              width: 50px;
+              z-index: 2;
+            }
+          }
+          h3 {
+            color: $main-color;
+            margin-top: 10px;
+          }
+        }
+      }
+      p {
+        font-size: 15px;
+        color: $soft-color;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
