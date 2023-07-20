@@ -13,7 +13,7 @@ const NavBar = () => {
         </div>
         <div className="links">
           <a href="/">Home</a>
-          <a href="">Education</a>
+          <a href="">Education and Experience</a>
           <a href="">Competitive Programming</a>
           <a href="">Skills</a>
           <a href="">Projects</a>
