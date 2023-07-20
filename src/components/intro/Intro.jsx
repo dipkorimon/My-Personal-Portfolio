@@ -1,5 +1,5 @@
 import "./intro.scss";
-import photo from "../../../public/photo.png";
+import photo from "../../../public/logo.png";
 
 const Intro = () => {
   return (
@@ -20,10 +20,10 @@ const Intro = () => {
             hobby than a career focus. I am skilled in Data Structures and
             Algorithms and also various programming languages.
           </p>
+          <button>Download CV</button>
         </div>
       </div>
       <div className="intro-right">
-        <div className="img-bg"></div>
         <img src={photo} alt="" />
       </div>
     </div>

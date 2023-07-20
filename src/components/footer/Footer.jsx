@@ -10,16 +10,16 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="icon">
-          <a href="">
+          <a href="https://www.linkedin.com/in/dipkorimon/">
             <LinkedInIcon />
           </a>
-          <a href="">
+          <a href="https://www.facebook.com/dipkorimon/">
             <FacebookIcon />
           </a>
-          <a href="">
+          <a href="https://github.com/dipkorimon">
             <GitHubIcon />
           </a>
-          <a href="">
+          <a href="/contact">
             <EmailIcon />
           </a>
         </div>
