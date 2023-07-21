@@ -24,8 +24,8 @@ const CompetitiveProgramming = () => {
             <h3>
               <a href="">CodeChef Profile</a>
               <p>
-                Codeforces' aim is to offer you a convenient platform to
-                organize, run and discuss programming contests.
+                CodeChef is an excellent platform that offers a wide range of
+                practice questions and conducts exceptional contests.
               </p>
             </h3>
           </div>
@@ -35,8 +35,8 @@ const CompetitiveProgramming = () => {
             <h3>
               <a href="">LeetCode Profile</a>
               <p>
-                Codeforces' aim is to offer you a convenient platform to
-                organize, run and discuss programming contests.
+                LeetCode is the best platform to help you enhance your skills,
+                expand your knowledge and prepare for technical interviews.
               </p>
             </h3>
           </div>
