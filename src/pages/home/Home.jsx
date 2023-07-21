@@ -1,14 +1,16 @@
 import React from "react";
 import Intro from "../../components/intro/Intro";
-import Skill from "../../components/skill/Skill";
-import Education from "../../components/education/Education";
+import SkillItem from "../../components/skill/SkillItem";
+import EducationExperience from "../../components/education/EducationExperience";
+import CompetitiveProgramming from "../../components/competitiveProgramming/CompetitiveProgramming";
 
 const Home = () => {
   return (
     <div>
       <Intro />
-      <Education />
-      <Skill />
+      <EducationExperience />
+      <CompetitiveProgramming />
+      <SkillItem />
     </div>
   );
 };
