@@ -23,6 +23,7 @@
 
       a {
         color: $main-color;
+        transition: all 0.5s;
 
         &:hover {
           color: $base-color;

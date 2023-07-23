@@ -1,5 +1,9 @@
 import "./intro.scss";
 import photo from "../../../public/logo.png";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 
 const Intro = () => {
   return (
@@ -20,6 +24,20 @@ const Intro = () => {
             hobby than a career focus. I am skilled in Data Structures and
             Algorithms and also various programming languages.
           </p>
+          <div className="icon">
+            <a href="https://www.linkedin.com/in/dipkorimon/">
+              <LinkedInIcon />
+            </a>
+            <a href="https://www.facebook.com/dipkorimon/">
+              <FacebookIcon />
+            </a>
+            <a href="https://github.com/dipkorimon">
+              <GitHubIcon />
+            </a>
+            <a href="/contact">
+              <EmailIcon />
+            </a>
+          </div>
           <button>Download CV</button>
         </div>
       </div>
