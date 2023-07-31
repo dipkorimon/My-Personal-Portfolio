@@ -8,10 +8,12 @@ const CompetitiveProgramming = () => {
         <h1>Competitive Programming Profiles</h1>
       </div>
       <div className="container">
-        <a href="">
+        <a href="https://codeforces.com/profile/idip">
           <div className="section">
             <h3>
-              <a href="">CodeForces Profile</a>
+              <a href="https://codeforces.com/profile/idip">
+                CodeForces Profile
+              </a>
               <p>
                 Codeforces' aim is to offer you a convenient platform to
                 organize, run and discuss programming contests.
@@ -19,10 +21,10 @@ const CompetitiveProgramming = () => {
             </h3>
           </div>
         </a>
-        <a href="">
+        <a href="https://www.codechef.com/users/idip">
           <div className="section">
             <h3>
-              <a href="">CodeChef Profile</a>
+              <a href="https://www.codechef.com/users/idip">CodeChef Profile</a>
               <p>
                 CodeChef is an excellent platform that offers a wide range of
                 practice questions and conducts exceptional contests.
@@ -30,10 +32,10 @@ const CompetitiveProgramming = () => {
             </h3>
           </div>
         </a>
-        <a href="">
+        <a href="https://leetcode.com/idip/">
           <div className="section">
             <h3>
-              <a href="">LeetCode Profile</a>
+              <a href="https://leetcode.com/idip/">LeetCode Profile</a>
               <p>
                 LeetCode is the best platform to help you enhance your skills,
                 expand your knowledge and prepare for technical interviews.
