@@ -18,11 +18,14 @@ const Intro = () => {
             </div>
           </div>
           <p className="intro-desc">
-            I’ve always been a great problem solver, an independent introvert,
-            and a technophile obsessed with the latest devices. I started
-            learning to code a few years ago, though it was always more of a
-            hobby than a career focus. I am skilled in Data Structures and
-            Algorithms and also various programming languages.
+            Greetings! I'm Dip Kor Imon, a dedicated programmer with a knack for
+            turning lines of code into innovative solutions. I thrive in the
+            realms of Competitive Programming and Web Application Development,
+            leveraging them to architect robust and scalable solutions. I love
+            sinking my teeth into complex challenges. My analytical mindset and
+            knack for problem-solving enable me to dissect issues, identify root
+            causes, and engineer elegant solutions that stand the test of
+            scrutiny.
           </p>
           <div className="icon">
             <a href="https://www.linkedin.com/in/dipkorimon/">
